@@ -15,6 +15,9 @@ from Products.ZenModel.ZenMenu import ZenMenu
 
 class ZenPack(ZenPackBase):
     def install(self, app):
+        # Verify that our report organizer exists.
+        app.zport.dmd.Reports.createOrganizer('Example Reports')
+
         ZenPackBase.install(self, app)
         self.installMenuItems(app.zport.dmd)
     
