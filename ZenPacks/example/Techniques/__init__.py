@@ -27,7 +27,7 @@ class ZenPack(ZenPackBase):
     
     def remove(self, app, leaveObjects=False):
         self.removeMenuItems(app.zport.dmd)
-        ZenPackBase.remove(self, leaveObjects=leaveObjects)
+        ZenPackBase.remove(self, leaveObjects)
     
     def installMenuItems(self, dmd):
         self.removeMenuItems(dmd)
