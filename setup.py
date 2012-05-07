@@ -5,7 +5,7 @@
 NAME = "ZenPacks.example.Techniques"
 VERSION = "1.4.1"
 AUTHOR = "Chet Luther"
-LICENSE = ""
+LICENSE = "GPLv2"
 NAMESPACE_PACKAGES = ['ZenPacks', 'ZenPacks.example']
 PACKAGES = ['ZenPacks', 'ZenPacks.example', 'ZenPacks.example.Techniques']
 INSTALL_REQUIRES = []
